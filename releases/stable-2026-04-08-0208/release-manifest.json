@@ -1,0 +1,1767 @@
+{
+    "releaseId":  "stable-2026-04-08-0208",
+    "createdAtUtc":  "2026-04-08T18:08:37.0671357Z",
+    "bucket":  "piano.thegyromusic.com",
+    "distributionId":  "E3K16XT2P4N288",
+    "s3ReleasePrefix":  "releases/stable-2026-04-08-0208",
+    "artifacts":  [
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\.last_build_id",
+                          "sha256":  "80240165B9D4307C5BF99826AE66E6DC86AE9946B5C16A5BD532589FB42897B1",
+                          "size":  32,
+                          "lastWriteTimeUtc":  "2026-04-01T23:20:03.1147837Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\favicon.png",
+                          "sha256":  "9590D32763BD72DE4EF2DD4D05AB9045BE2929974442F807D6C52B5357002490",
+                          "size":  822,
+                          "lastWriteTimeUtc":  "2026-04-08T00:57:46.2873959Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\flutter.js",
+                          "sha256":  "ED5D5920A9868A8B93D790A9AAE4165A62962728D4ABBEC5A14F600D73C53BD3",
+                          "size":  9412,
+                          "lastWriteTimeUtc":  "2026-02-15T02:50:15.9360672Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\flutter_bootstrap.js",
+                          "sha256":  "CC99EF3CAED69EEB91F9E1628330970F9505954FB54DA31558F7D6CD1FE7C73C",
+                          "size":  9667,
+                          "lastWriteTimeUtc":  "2026-04-08T00:59:15.8067584Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\flutter_service_worker.js",
+                          "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                          "size":  0,
+                          "lastWriteTimeUtc":  "2026-04-08T01:01:49.7790976Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\index.html",
+                          "sha256":  "DBF96F9D5A94535E66E3DA0B3A0244F2115F5445093EEB7B429230BECA767A0F",
+                          "size":  4609,
+                          "lastWriteTimeUtc":  "2026-04-08T00:59:15.9235319Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\main.dart.js",
+                          "sha256":  "8118EEEA351021390347F84E4380B93DFCB4990972ABB9D32D000A57F6945B18",
+                          "size":  3231263,
+                          "lastWriteTimeUtc":  "2026-04-08T01:00:12.6622842Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\manifest.json",
+                          "sha256":  "8C964C041772EFFAC37AD337155B31CCEBE77EB9C572915A58AA19E13C40600B",
+                          "size":  953,
+                          "lastWriteTimeUtc":  "2026-04-08T00:57:46.5825046Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\version.json",
+                          "sha256":  "01FDDBB84882CE30366DFB7900AD4A98DA3F513E2233A3DA801EDF874418FB44",
+                          "size":  90,
+                          "lastWriteTimeUtc":  "2026-04-08T01:01:23.4721084Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\AssetManifest.bin",
+                          "sha256":  "F2160CC36F505FD7F5D2AFACA94CA5ED1932DE69E65387033DAF660EB643B24A",
+                          "size":  36809,
+                          "lastWriteTimeUtc":  "2026-04-08T01:01:25.6532124Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\AssetManifest.bin.json",
+                          "sha256":  "9CF70D6F5CAD7F7EDB2ED2FA5BBD59281A322692D2DED68F1F7493696385D45A",
+                          "size":  49082,
+                          "lastWriteTimeUtc":  "2026-04-08T01:01:25.6532124Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\FontManifest.json",
+                          "sha256":  "CD7E03645BC44B2DD47B7CB626F51C4ECBF55A197AB77241628B47AC165FBE21",
+                          "size":  208,
+                          "lastWriteTimeUtc":  "2026-04-08T01:01:25.5443813Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\NOTICES",
+                          "sha256":  "E02F22EA5FB5D59E8B09EC091C0755845A400F4F2FA797264C1EF0200BFCC793",
+                          "size":  1437305,
+                          "lastWriteTimeUtc":  "2026-04-08T01:01:25.6482020Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\app.env",
+                          "sha256":  "67F540D37C1BC7E6561A37DFB6B161726B59FBE2A4055222E659759A95219895",
+                          "size":  400,
+                          "lastWriteTimeUtc":  "2026-04-01T15:12:42.3208279Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\Bravura.otf",
+                          "sha256":  "DCA2D90C88437A701B1C2E71FA54E76F9FA41D7DEEE935D74DC871EA66ECFDD2",
+                          "size":  512924,
+                          "lastWriteTimeUtc":  "2022-05-08T14:13:56.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\BravuraText.otf",
+                          "sha256":  "BD5B1D0A43853E32EAA0851AFE9A37E5967F88153270225890C32AE73D2A4942",
+                          "size":  1236512,
+                          "lastWriteTimeUtc":  "2022-05-08T14:13:56.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYork.ttf",
+                          "sha256":  "BC5D5580C5265C7DC13D59C5B41030B7DCCEC1F55AE93CB71C3E9847DA6D74D6",
+                          "size":  365668,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkExtraLarge-Black.ttf",
+                          "sha256":  "C900FB56C5AA9487937A6DC54474AC879C62F9D458C06F61EFB368BDD24007BB",
+                          "size":  247076,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkExtraLarge-BlackItalic.ttf",
+                          "sha256":  "F28461761A1BD0C695B000F68166FE082DEDA96BEF4E8DFE8C3C55D264983B21",
+                          "size":  256184,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkExtraLarge-Bold.ttf",
+                          "sha256":  "EF6BF703680AF2474858E844AA4278B52D8C6F1E43C95B235A1DEE5D0FF01172",
+                          "size":  246480,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkExtraLarge-BoldItalic.ttf",
+                          "sha256":  "7BB829D7AF01175A02CFE486FF0854429676FBA89272464D856147365C878377",
+                          "size":  253608,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkExtraLarge-Heavy.ttf",
+                          "sha256":  "77DD2044A3F281E51E4CF476E1F87EF744E22A1BA227A50344D23975003EEB5E",
+                          "size":  246684,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkExtraLarge-HeavyItalic.ttf",
+                          "sha256":  "F7770AA5ACE7F42CB757D1428AC52367BE207AAE29575E37EC24D7821C358FEC",
+                          "size":  254904,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkExtraLarge-Medium.ttf",
+                          "sha256":  "DDA1AF406E364CC2E77FC84D4EB2DA1BEC8022E574FD700829E0FDC3015B0AA0",
+                          "size":  246092,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkExtraLarge-MediumItalic.ttf",
+                          "sha256":  "C15CC11D932AA6D9A5D1817B7E37DF08FB161FC1711B2FFED8533D3410DF1FB7",
+                          "size":  253640,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkExtraLarge-Regular.ttf",
+                          "sha256":  "9E2A1451C7A35A2C340D019B513C7E1A7FA9813E2739AD94E38C5767C5C7CFF3",
+                          "size":  245616,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkExtraLarge-RegularItalic.ttf",
+                          "sha256":  "3C2E887C8F7D7538447ADC2474676065D0F816470CA91235CADC72B77E381CFA",
+                          "size":  254612,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkExtraLarge-Semibold.ttf",
+                          "sha256":  "1B075F0A3077BFB06EC3216DC110547CF0304F2DAD09CDFC6B8781D73805C502",
+                          "size":  246556,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkExtraLarge-SemiboldItalic.ttf",
+                          "sha256":  "C743AA3E30F241909BFF72F2299BEEB57AFA12D9A64012CDCF98A6CE339E7BC8",
+                          "size":  253848,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkItalic.ttf",
+                          "sha256":  "14B8709F62F51400D49F4F2A3B83DFEB831A240651A756F2613842C7296FDECB",
+                          "size":  359944,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkLarge-Black.ttf",
+                          "sha256":  "63FB2CB53A8E10A50931BA32914D501D87D224AAEDC2B810777FF91FF3503B0D",
+                          "size":  246032,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkLarge-BlackItalic.ttf",
+                          "sha256":  "2CF37597701E12F4CC4B5D4E3DE98C371FB61D2D0805C7B50E970DE07E8C2E17",
+                          "size":  255536,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkLarge-Bold.ttf",
+                          "sha256":  "C6E70734088F8E21960FAE398FF80C5DE7A199FE4C812F7C9857EDF588B802F1",
+                          "size":  246224,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkLarge-BoldItalic.ttf",
+                          "sha256":  "A2EC931D835992D6E16E2F0C6802BDB5855B03F840292D8A526339423DA7D3F5",
+                          "size":  253648,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkLarge-Heavy.ttf",
+                          "sha256":  "375DC0904F2539FD996EC59BD29B35F112BF29C1E27137F0CC3651819E395E62",
+                          "size":  246212,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkLarge-HeavyItalic.ttf",
+                          "sha256":  "47BB2F1FAEBEE5B2F9E4B0B8571CF988B05F0B9257CB3EEED2753F0C4D24C889",
+                          "size":  254400,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkLarge-Medium.ttf",
+                          "sha256":  "90D16D0BD00492E4D81FC70E623CBA4311BBCE82A79F4E609CDB85CB39BE1B79",
+                          "size":  246144,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkLarge-MediumItalic.ttf",
+                          "sha256":  "B3C6E35CC358659C460EB511E04ACFD8D31C83B04CB8DD140DF8E914E54247AD",
+                          "size":  254448,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkLarge-Regular.ttf",
+                          "sha256":  "22FE40C85D523287325190D991E5C80EEC0DE1688835DB429841BE8600154ED8",
+                          "size":  246600,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkLarge-RegularItalic.ttf",
+                          "sha256":  "7060A9A72381E77C65C5A453D4A69D4C62935F5C3B4B1E84F170A5E5D77CE5F7",
+                          "size":  254508,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkLarge-Semibold.ttf",
+                          "sha256":  "069B0DA90966368880FE2B65E91CE24C38CDD6E531D57F0220AE57E8CB59B593",
+                          "size":  246920,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkLarge-SemiboldItalic.ttf",
+                          "sha256":  "121F6BCAD0062CA6198F4AA2213C3E703D2E82B97A5E5EB9E10DA01B96B0963F",
+                          "size":  254132,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkMedium-Black.ttf",
+                          "sha256":  "29D8B7BBA282543E8ED2FBD7A955270BA526F60AE36E35A144B321CC9D5AD060",
+                          "size":  246032,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkMedium-BlackItalic.ttf",
+                          "sha256":  "7D2B122278CBD64664902DFE880C8C5DCF4905E80D72FE2894F50776DFBEE2B3",
+                          "size":  254948,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkMedium-Bold.ttf",
+                          "sha256":  "05E232B49F047A57B75571EBDD098E56587D624C50CA4C400B58D5391064D7B4",
+                          "size":  246276,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkMedium-BoldItalic.ttf",
+                          "sha256":  "9E590DC591FA95AC712E23E49A7276297BB063920E9EE4F828D7FA77CAF0FD7E",
+                          "size":  254368,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkMedium-Heavy.ttf",
+                          "sha256":  "B8559DF805F0DA6854628A37B5699CAA49DCD10EBC4640CC2D054C6C298320D5",
+                          "size":  246616,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkMedium-HeavyItalic.ttf",
+                          "sha256":  "57E4329980C0F831707B03AA94F7B66D92A213190F2C5D503DA09EF99383C592",
+                          "size":  254860,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkMedium-Medium.ttf",
+                          "sha256":  "2EDA567741CB49319BB8C4645A05BA8CAD5480E5BC43CFE6BDDDDF290A6BFC4A",
+                          "size":  246468,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkMedium-MediumItalic.ttf",
+                          "sha256":  "0C988988FA638BD96D04E504C7618634A7B00C84FB506A2B03D860920551CA84",
+                          "size":  254288,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkMedium-Regular.ttf",
+                          "sha256":  "3F17573B5B8F8E9B70431174A915805815E0610A5A1AB5F27266FDBFF451A84C",
+                          "size":  247260,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkMedium-RegularItalic.ttf",
+                          "sha256":  "718E6D1BAB1E1B06E6D2435DBD91B5F8212373E9EAF090E4EF43119921FBB79B",
+                          "size":  256100,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkMedium-Semibold.ttf",
+                          "sha256":  "DC2E21C11175549EFC455663A00A9087C887D70F7B3229FA1B76135F89AA4EDE",
+                          "size":  247360,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkMedium-SemiboldItalic.ttf",
+                          "sha256":  "12F4437F7729539FFC37E803C1790590F92161391770EE0BF53C104C4238CB97",
+                          "size":  254808,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkSmall-Black.ttf",
+                          "sha256":  "AF4C9BC7E685669D289A34DAF5912EC6C175CE60C53B65CFDC6F84B19FA7013F",
+                          "size":  245856,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkSmall-BlackItalic.ttf",
+                          "sha256":  "B876949BA5DA3F5078E98FFE5806C43FDD656CF4E408730D13BE7EFC3651EC68",
+                          "size":  254164,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkSmall-Bold.ttf",
+                          "sha256":  "7E12D1FD7C6F31F1FA88D7E6AD26A031D8F65413BC5EF0219E1B573B831AFF2C",
+                          "size":  247748,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkSmall-BoldItalic.ttf",
+                          "sha256":  "55D96D8D6A23A572AE00B1470D452D7A072DC92E9C58FBE45D9E93E335AE8128",
+                          "size":  255172,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkSmall-Heavy.ttf",
+                          "sha256":  "CDA4EACFC16706E47E9D9FE415362B68C7B8023963803FF6E9EB4967B793B76E",
+                          "size":  246676,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkSmall-HeavyItalic.ttf",
+                          "sha256":  "F1593F3C90E8D0B01CAAC46D0C99D7186E84EE7B386588369D09DA03F9D4E318",
+                          "size":  254820,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkSmall-Medium.ttf",
+                          "sha256":  "A20CE0271EE02476826F9ED6FC80D01B6861ECC466C9CE4C3A1652C871C8B03D",
+                          "size":  248476,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkSmall-MediumItalic.ttf",
+                          "sha256":  "EBD04C9AF893D615CF53982B456A7AB581EC69BDF51D6B9A363E7F2DF0E4A894",
+                          "size":  255596,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkSmall-Regular.ttf",
+                          "sha256":  "00EC46C2D30216ED570498B7FE07F192EF9665E2DC9F5A78467CB5762A41F75F",
+                          "size":  247588,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkSmall-RegularItalic.ttf",
+                          "sha256":  "1D8E4ADC2CA83FD17B943ABF3E1AC4CB0E6FEBFBD9CC030DEFDA7B30EF293849",
+                          "size":  256736,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkSmall-Semibold.ttf",
+                          "sha256":  "CDCB263AE28617BF5CC87ACB0232C3E1378CEC18B05783E9B81818CB0D7AB9F5",
+                          "size":  248536,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\NewYorkSmall-SemiboldItalic.ttf",
+                          "sha256":  "5FDB44FF2A7D5857EC62A494DA107EBAD3ECC4BBFEDB91396EAAACC1F2589F39",
+                          "size":  255004,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\README.md",
+                          "sha256":  "5684A72DF406F8DAC2997288C7831E4FF86B50E18EFE40F72D2490DA078A9DDA",
+                          "size":  20,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Display-Black.ttf",
+                          "sha256":  "8BDE2D65BFD9F37BBA5A95A478189928E9CCF1EF5AA39CC4B7DA50A6B1CC89E2",
+                          "size":  3477388,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Display-Bold.ttf",
+                          "sha256":  "34B78C54C4F8DD3D76BA7717EA88199989D245CA8522C820A1E8BC29ACE43C4D",
+                          "size":  3485692,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Display-Heavy.ttf",
+                          "sha256":  "EE81CC2881B1048B82F2F4A5C9B655448C1E8F59D171A3F91D2C84231B8E27CC",
+                          "size":  3492896,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Display-Light.ttf",
+                          "sha256":  "BC3425A75D3E6A5C472572369A3D0C1815240AF2734D5A2BA8AA81B54A92FA47",
+                          "size":  3476904,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Display-Medium.ttf",
+                          "sha256":  "B4474593AF47845F44072EC7BCF5C0B1E10018FB22E8656079D672FC46CAF37F",
+                          "size":  3487068,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Display-Regular.ttf",
+                          "sha256":  "C729343E22EC89582B94E5E8A2A1B96C2AA753F7D07EB43BF388031DE947F9F7",
+                          "size":  3476668,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Display-Semibold.ttf",
+                          "sha256":  "31BC1474AF6EE503AB7D02B1C5C1AC7834CAFCEB83D5D1BFC820E14782EE6007",
+                          "size":  3479864,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Display-Thin.ttf",
+                          "sha256":  "B5E081B65C0F316D459C68D8CD6C84C8506F17C2761BD15FFCAFE1D36060CA5E",
+                          "size":  3465368,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Display-Ultralight.ttf",
+                          "sha256":  "6BB43C17210E3BA6EBEEB9DBD2F455CC6411D7A6B9481B9DF9EDC452EB039488",
+                          "size":  3419208,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Italic.ttf",
+                          "sha256":  "9EC931D1735F2B93908857057E0E77943E8E7E611020E0B71171C3BF4D79FC12",
+                          "size":  5964560,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Rounded-Black.ttf",
+                          "sha256":  "0646C41EAC98F7DC3CA9393F85A9452BEB6D2334F3B47E339B335DE4CD4FBD36",
+                          "size":  3571192,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Rounded-Bold.ttf",
+                          "sha256":  "4217670C2185F22D387225D1C2CA22B30AFA0192BB993312B2369FD214258E76",
+                          "size":  3579572,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Rounded-Heavy.ttf",
+                          "sha256":  "32E80CFB53E86DA07553712B176924227C1816FCA65CC847751EB5A11BACB13B",
+                          "size":  3588548,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Rounded-Light.ttf",
+                          "sha256":  "8AE2DEA0C1EFACEA104B56C30C69AD76F63BF1E8CF594F670D4D90D950F01605",
+                          "size":  3570232,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Rounded-Medium.ttf",
+                          "sha256":  "0E38CE5178039CBDFD908A833A68862A76D9C78CEEE92BAB4F48C06BF3A4D489",
+                          "size":  3584808,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Rounded-Regular.ttf",
+                          "sha256":  "40193CF3993FC8BD1A39F6DE974F0DA0890E8C810CFE58FD94CBADA468FB11BB",
+                          "size":  3572648,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Rounded-Semibold.ttf",
+                          "sha256":  "6543FD966FFADD79D9FE07095BFCF12D5AE338184CB3B985E3E10A40D752C757",
+                          "size":  3574436,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Rounded-Thin.ttf",
+                          "sha256":  "B3F89915D10F436678FE620DF71044D277179AF63E829C373A6C8EBF951CD7B7",
+                          "size":  3556984,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Rounded-Ultralight.ttf",
+                          "sha256":  "99090BE563E324C099B50B28ED3E8CF38E2178D46C6FC6A5C4DA01FC699872F6",
+                          "size":  3509960,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Text-Black.ttf",
+                          "sha256":  "D89EDB00FECFF8520833FD3BF8A96A89982ED6BCB94F66817EC4ACA4A5C0C636",
+                          "size":  3477684,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Text-BlackItalic.ttf",
+                          "sha256":  "01F02F8F3603771A4BE43105B44D773A11422303EE03D8E7F1430EBF1FA9CD91",
+                          "size":  3365536,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Text-Bold.ttf",
+                          "sha256":  "39B5A2EFCE479525CCDCEF38256976A815C7BE6AE7C115B3402D93575A01A3BC",
+                          "size":  3476480,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Text-BoldItalic.ttf",
+                          "sha256":  "461CC46801A3ED86D8F8FD8A5471A6CFF4ECE2D70AA88DD3AAEE4673B31BFEAE",
+                          "size":  3394516,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Text-Heavy.ttf",
+                          "sha256":  "EFDAE3EBE68DD50E4A85D214AE1A4737B8DE2FEEDFB10DD99FB3AE75C3DA7016",
+                          "size":  3490176,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Text-HeavyItalic.ttf",
+                          "sha256":  "D9D2B5835649AEA05630D0FA10330E721C808DA09E3E95FFC2FEDEAFDA6861B3",
+                          "size":  3406552,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Text-Light.ttf",
+                          "sha256":  "607AA3B609431154998BC996CC0C226408F212F5E57D51D119696353976C2A92",
+                          "size":  3456732,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Text-LightItalic.ttf",
+                          "sha256":  "052E8AC3064BBCF0A6291E2AF75340A9CFA51CDAA30B977FFECAF54E75F3DF72",
+                          "size":  3381076,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Text-Medium.ttf",
+                          "sha256":  "041AB46A985E2E6FB4D76759892429E0BFCB8FF18816EC7817B8894B4DB3C078",
+                          "size":  3483232,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Text-MediumItalic.ttf",
+                          "sha256":  "2A903BE0E16AF265285EF82258E4A0024162F2E9D4B2044CF95AB70EE3D6D275",
+                          "size":  3403344,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Text-Regular.ttf",
+                          "sha256":  "8B1A642FCCFBA6A7E9F83D2A85B07B7087D3B2A88A898990BE7982CC41B7B254",
+                          "size":  3474548,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Text-RegularItalic.ttf",
+                          "sha256":  "F4A00ACFCFE1E1EB8DA31D2941A535C21E32717DD0EEA2FB2D8A75AD1084850D",
+                          "size":  3396084,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Text-Semibold.ttf",
+                          "sha256":  "9AF0A146D9273868C1C3B847948D90183FCFFDDD392424CC921CD7DBCAA87859",
+                          "size":  3475256,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Text-SemiboldItalic.ttf",
+                          "sha256":  "02AC1C2FF4FD138E999B23973292135994DB7EF5C0DB49D9A01480D0B7792167",
+                          "size":  3394728,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Text-Thin.ttf",
+                          "sha256":  "9590236C56745F6B847B9B91BB00EA0155D7D792EDD6E0CDE94E51726846A200",
+                          "size":  3453792,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Text-ThinItalic.ttf",
+                          "sha256":  "66BB72CD9B8171CD92EEF1CEE27D36DF8CE701125401D7D13F14DECE88B9DF83",
+                          "size":  3374296,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Text-Ultralight.ttf",
+                          "sha256":  "99F11396486B4FE0A4544355698EADC43F57E51715FED4911B50FEAF78FBB4AB",
+                          "size":  3406276,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact-Text-UltralightItalic.ttf",
+                          "sha256":  "9DD0A7010A1E29DA10535E8C1CC41BE0C8B27DE0542AD598E24739E7F9097EC7",
+                          "size":  3327072,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Compact.ttf",
+                          "sha256":  "32463DDFA4BE49A61A0E3A63B5334E93355EC4027A54F488A31AD5EC77C77805",
+                          "size":  6673208,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Mono-Bold.ttf",
+                          "sha256":  "25B96AAC47BD4330A4E45553899C0E76DA6842A96BF8AF61301944C837FFF0CF",
+                          "size":  195024,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Mono-BoldItalic.ttf",
+                          "sha256":  "B034130B1B22F32DE023A5D183D5A4D4592DDB7EDDE8DB8214194C34D25D2467",
+                          "size":  178084,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Mono-Heavy.ttf",
+                          "sha256":  "A462B2EF570A76697093815AF96E54AE6BF339DD60B93CFFD608DC447A3100C1",
+                          "size":  195232,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Mono-HeavyItalic.ttf",
+                          "sha256":  "F55CD02B360C3F47EE413A0561F929C44530ED9298673CDA5263C224A8C10A8D",
+                          "size":  177444,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Mono-Italic.ttf",
+                          "sha256":  "B952BDB435BF40DD2BA5E98533B9C2D21FCD1C33186BBE211325EC55ED5DFE59",
+                          "size":  201060,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Mono-Light.ttf",
+                          "sha256":  "ACA7F446F80A9528493D3C345A676826FEBE26665EA6375C154901AB41D5CCCF",
+                          "size":  193012,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Mono-LightItalic.ttf",
+                          "sha256":  "120121DB2AA186A72C2BE5BF50BC02D33FA757D1467229CB14AF396EAF81BAED",
+                          "size":  174024,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Mono-Medium.ttf",
+                          "sha256":  "B2FD09E834BECA5F14D29C2FE11CFF6608B80EE430520A23A78314E622357236",
+                          "size":  194736,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Mono-MediumItalic.ttf",
+                          "sha256":  "EC9F0358A27B2D26AF4A22DB39C377087B31AFB21C2ED36E0F53EB7BE35C3AB2",
+                          "size":  177288,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Mono-Regular.ttf",
+                          "sha256":  "90BC195D5FF6E7C3F1F9FDA94766EA7701F5003308C75991C51B8CCB0D62E26F",
+                          "size":  193924,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Mono-RegularItalic.ttf",
+                          "sha256":  "662A092781AD5F17070EF1D26918B778D4B6D0A1458D6E495B05374420ACC6EB",
+                          "size":  176684,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Mono-Semibold.ttf",
+                          "sha256":  "063DF70EFADE839C998F60787912DFF67F9C7B3EE756040A82513C63483C8C18",
+                          "size":  194324,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Mono-SemiboldItalic.ttf",
+                          "sha256":  "A007DA32387013E3C301F698468643D83DDA839C6284B7D9BADE07209EAADA0D",
+                          "size":  177184,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Mono.ttf",
+                          "sha256":  "1172504F4ED359E1BA7704F457E40E552D48937A56CBE3F594B7DE565CC1327B",
+                          "size":  220472,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Display-Medium.ttf",
+                          "sha256":  "F03F8AF935FA77C5581CCB0FB8937DAF7CB197167153B371685AEB2AE157EBE4",
+                          "size":  3564404,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Display-Regular.ttf",
+                          "sha256":  "BB35B540D5E6B7A245046B5941B69B3D70265853DADD1D0EEEF01B4C22FF4586",
+                          "size":  3517544,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Italic.ttf",
+                          "sha256":  "9EB0A0761F0F7DF966159E091E7B7B905C422CA4B521E330280DC7C4C70F0567",
+                          "size":  6558876,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Rounded-Black.ttf",
+                          "sha256":  "E46C1C07100EFB46EA2958BF40945305442E3B5000E9EEB97C98554E2BA9C06C",
+                          "size":  3677800,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Rounded-Bold.ttf",
+                          "sha256":  "F080C7161871CD7F0B41290D30A503C054F93C2FF120D97C83E1317718C441D6",
+                          "size":  3687212,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Rounded-Heavy.ttf",
+                          "sha256":  "7CE4C718266083757A819197DAB1DCB7FBFAF15817A36724C5677E4E7E127498",
+                          "size":  3695812,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Rounded-Light.ttf",
+                          "sha256":  "D22C95B2A057CB42D9C5B7CEFD754B06FC98B7E3010389C07D3B5EE6D05D5D29",
+                          "size":  3674820,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Rounded-Medium.ttf",
+                          "sha256":  "A52E72C6C3327987DFBD0522E9E74184F338413B3A187AB231A23AF046FC55D3",
+                          "size":  3701744,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Rounded-Regular.ttf",
+                          "sha256":  "DCBE16496B4DA0877315C2C910FCDF9E4214E49BFB9F080700660BF88149BDDB",
+                          "size":  3639284,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Rounded-Semibold.ttf",
+                          "sha256":  "F2293FE2B2DB57A3FDE9A2EC5D5DBDA0421026766521918E2356714782F660F4",
+                          "size":  3688024,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Rounded-Thin.ttf",
+                          "sha256":  "6D366298C3B6DA34AF6BD2ABF1B936C04D248D18C2ECD5553FAEF5E516083523",
+                          "size":  3657128,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Rounded-Ultralight.ttf",
+                          "sha256":  "A5006CD601E12812D3E41F14C037D2E8C8F8C125F6BB0119DA84C76D82FA3C19",
+                          "size":  3590252,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Text-Black.ttf",
+                          "sha256":  "4A02C146BC73E9D5881A0BCB52B603160565D6433FD04B2DA018587D1FA16363",
+                          "size":  3525388,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Text-BlackItalic.ttf",
+                          "sha256":  "6B9AC06BF817BC45BBD62EB5DD6D7B9ACC289BF4C3D2C6CA34A9BADADF845350",
+                          "size":  3421728,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Text-Bold.ttf",
+                          "sha256":  "C7F443D18077ABEF0CB4403FED8022617BCC50A7E985315B8B544F3FFF76DDA6",
+                          "size":  3531888,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Text-BoldItalic.ttf",
+                          "sha256":  "D90BBC2ACD528CD8086C8442965F3332DFA09F042D20072F174819A39A49692D",
+                          "size":  3427596,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Text-Heavy.ttf",
+                          "sha256":  "640D7067DE89971F401D49B048244B679097212997A55658776EC5AEA8D1319C",
+                          "size":  3540568,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Text-HeavyItalic.ttf",
+                          "sha256":  "585E665A1340ACC493ABCC195900F1529038D47F9D47B877AEA3467CF78528F6",
+                          "size":  3433120,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Text-Light.ttf",
+                          "sha256":  "82C08380153583930E07E3410A28CB8C3539EE26229E1B05CC8FD2DBB11B7DD2",
+                          "size":  3525784,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Text-LightItalic.ttf",
+                          "sha256":  "78D899CB22F45DAC95F81219948796A1F524EA3F29EFB55F06C5F31540A903A1",
+                          "size":  3424376,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Text-Medium.ttf",
+                          "sha256":  "DE3BE3F7320678865803560EA3B40992BDACA9FBF2456299C9BE4D61162CA0D1",
+                          "size":  3543072,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Text-MediumItalic.ttf",
+                          "sha256":  "A23897CE7C41448BDA587846538C7DC02F95109B155191345F619B1E6BFEADAE",
+                          "size":  3436272,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Text-Regular.ttf",
+                          "sha256":  "560AEA1BE77D48ADBDAB47C9E298977C002F2961FC94C2F67C7FFEF25DF86C18",
+                          "size":  3513500,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Text-RegularItalic.ttf",
+                          "sha256":  "02C507E17DF547AC01590C3B4AC007C8D84A93D972C6D591003CEE5B3FFA1852",
+                          "size":  3406888,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Text-Semibold.ttf",
+                          "sha256":  "012E06A9802195125782C721EE2D4B7B81159183E113E8E433F09EC15586E6A5",
+                          "size":  3529036,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Text-SemiboldItalic.ttf",
+                          "sha256":  "97CC64554962CE12FB252DA30BD356774D74A6DE779826B939DB2C701E3AFBE1",
+                          "size":  3434552,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Text-Thin.ttf",
+                          "sha256":  "5EBDC63F761D627646CFA6CE256D09C4E0FEECA34B1D03205C628EC81F7D9198",
+                          "size":  3514776,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SF-Pro-Text-ThinItalic.ttf",
+                          "sha256":  "34206BEB6BF1062A0932C1B012FB3F78872F66C44251A9C69F3C51C49494F0C8",
+                          "size":  3412856,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SFPro.ttf",
+                          "sha256":  "216C8F70FC35FB8161D03A7F8DDF5FFF5760E1879688D70EB20ED9779B8FFEE2",
+                          "size":  6110460,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SFProDisplay-Black.ttf",
+                          "sha256":  "67BC58F37A85B54E9305C4D7401EAD1FD1470B09774B5C3584ACB48FF285C554",
+                          "size":  3544644,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SFProDisplay-BlackItalic.ttf",
+                          "sha256":  "A5BB61604AE461CABA828D8A3171C149C6343359828A9BE2AFF4717689724B03",
+                          "size":  3400768,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SFProDisplay-Bold.ttf",
+                          "sha256":  "11EF08A01C4AAC97FB53A01EE2B941D7DC3DB8E14CFC5B515C67BE6852483B32",
+                          "size":  3552580,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SFProDisplay-BoldItalic.ttf",
+                          "sha256":  "65C3A854E00AAA6146A3A2FD2D430A64A6E24A37AF636B4B916B5E0ED0BE5B2F",
+                          "size":  3415496,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SFProDisplay-Heavy.ttf",
+                          "sha256":  "4F888A54CB13EB710096EA24814EDB581997548C2C8553675353D6596405C2E6",
+                          "size":  3562044,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SFProDisplay-HeavyItalic.ttf",
+                          "sha256":  "67B9CA063088F4BC83E78D079B9198F1C236D46EAF704175F102C76C1ACCA9EB",
+                          "size":  3422304,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SFProDisplay-Light.ttf",
+                          "sha256":  "03870EAE7F797E3558BA9B7B990E40BA20504A28013418FD164D71B2234CB679",
+                          "size":  3540756,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SFProDisplay-LightItalic.ttf",
+                          "sha256":  "C28A1F20CFACCC5248F644C29BE4EC71636CCFCFAED99D9524FA6E5FE05A2E72",
+                          "size":  3420316,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SFProDisplay-Medium.ttf",
+                          "sha256":  "F03F8AF935FA77C5581CCB0FB8937DAF7CB197167153B371685AEB2AE157EBE4",
+                          "size":  3564404,
+                          "lastWriteTimeUtc":  "2025-07-31T13:09:44.4500000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SFProDisplay-MediumItalic.ttf",
+                          "sha256":  "B3C97D2202B65834B6B517160FE414C9062CD66A77B16F5E36D6AF34C1C8C3A4",
+                          "size":  3425048,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SFProDisplay-Regular.ttf",
+                          "sha256":  "BB35B540D5E6B7A245046B5941B69B3D70265853DADD1D0EEEF01B4C22FF4586",
+                          "size":  3517544,
+                          "lastWriteTimeUtc":  "2025-07-31T13:03:03.3700000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SFProDisplay-RegularItalic.ttf",
+                          "sha256":  "1324FD36AE224A959BFC62D23C30C6BFB5991065647397E91B9F3639DD11D911",
+                          "size":  3395772,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SFProDisplay-Semibold.ttf",
+                          "sha256":  "FEA2FD0EBA00B69469371D69386036A9665574E8E4DE083DB678A193DD8875B2",
+                          "size":  3549840,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SFProDisplay-SemiboldItalic.ttf",
+                          "sha256":  "86860DD76CA86326848DB81D108152D20A3AA94E729F6EDEE82678163ECCB85A",
+                          "size":  3423656,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SFProDisplay-Thin.ttf",
+                          "sha256":  "B32CD86C6FF8803C3247F7575A43BC88868BA8B416732B3D02B7F060C4336C66",
+                          "size":  3527472,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SFProDisplay-ThinItalic.ttf",
+                          "sha256":  "C33416C47C35860CAD5B082393AA032B6E327A681D88F2B1B1FCB573D9322160",
+                          "size":  3408812,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SFProDisplay-Ultralight.ttf",
+                          "sha256":  "5CC6343290FAAC667BC167D5B66BE2B96374A86574BBB8F4126EBF48A2D1A082",
+                          "size":  3483176,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SFProDisplay-UltralightItalic.ttf",
+                          "sha256":  "2A90F59DD4C2D2B218D93F3763E08670079ECF27A5E824E17D78B7389DFBD727",
+                          "size":  3363940,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SFProText-Ultralight.ttf",
+                          "sha256":  "4BEBF6AE11B422E0A47AEB96E2811DF94E697876F4727BD7720CA18D14ABFA30",
+                          "size":  3471100,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\fonts\\SFProText-UltralightItalic.ttf",
+                          "sha256":  "DF41F974CFE41839699BBAFB8479B5DF3095A15717B998AC6D31F99A0B1B930A",
+                          "size":  3369124,
+                          "lastWriteTimeUtc":  "2020-12-03T02:56:46.0000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\icon\\.DS_Store",
+                          "sha256":  "D65165279105CA6773180500688DF4BDC69A2C7B771752F0A46EF120B7FD8EC3",
+                          "size":  6148,
+                          "lastWriteTimeUtc":  "2025-09-10T15:43:21.7800000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\icon\\icon.png",
+                          "sha256":  "3B6122F927CC5E9C7EBC9E4B3FC0C6CABDF2FE615AACF7B498D847F79638FCBB",
+                          "size":  106757,
+                          "lastWriteTimeUtc":  "2026-03-25T18:29:43.2362053Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\images\\420991.avif",
+                          "sha256":  "904798D3C93C15A7313E520FE372B04447AD464D5BB2CBADC9CB66C3A5FECECD",
+                          "size":  9147,
+                          "lastWriteTimeUtc":  "2026-03-25T18:01:16.1973154Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\images\\gyroc.PNG",
+                          "sha256":  "9D3C605F28DA6F40652FCB995BD70A411A2C0595BA78F24221B7E18A70F6F7EE",
+                          "size":  105489,
+                          "lastWriteTimeUtc":  "2026-03-25T18:05:57.6157705Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\images\\gyroc1.png",
+                          "sha256":  "9C1B98861875AE1F6393925B653B821519A3703FE64FC3AEC084E4482AE9B5E9",
+                          "size":  904583,
+                          "lastWriteTimeUtc":  "2026-03-25T18:11:28.3088393Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\images\\gyroc2.png",
+                          "sha256":  "04A6764CF1AA34436FC982102874251D4DDC57AF19526DB94594C981926EC138",
+                          "size":  908478,
+                          "lastWriteTimeUtc":  "2026-03-25T18:19:53.6442084Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\images\\gyroc3.png",
+                          "sha256":  "3B6122F927CC5E9C7EBC9E4B3FC0C6CABDF2FE615AACF7B498D847F79638FCBB",
+                          "size":  106757,
+                          "lastWriteTimeUtc":  "2026-03-25T18:29:43.2362053Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\images\\gyroc4.png",
+                          "sha256":  "BD32CDD4C63FC21F7FDEAC9A99B96A37C8D9E59E0E339DB1033EE3B75DBCDFB8",
+                          "size":  860593,
+                          "lastWriteTimeUtc":  "2026-03-25T18:31:46.0365038Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\images\\gyroc5.png",
+                          "sha256":  "E93CA1FE71EFEBBAC46268AC5882769F195D6415785D921664C1E844D2725E22",
+                          "size":  1379810,
+                          "lastWriteTimeUtc":  "2026-03-25T18:33:06.5513351Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\.DS_Store",
+                          "sha256":  "C2C12E2445B349210803B645C35E83EF34CA826C24F3E7646B047AD851A91A7C",
+                          "size":  6148,
+                          "lastWriteTimeUtc":  "2025-08-01T23:34:57.2900000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_021_A0.wav",
+                          "sha256":  "3F0D3C86AE7E5601FF86063F5A5EA514B13901BF7900BDFBF82166AE102C5AD1",
+                          "size":  1024044,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:13.2900000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_022_As0.wav",
+                          "sha256":  "EE523D70F334102C95E359580E736044905FF55F57E9BAC1608B318DACE8FF99",
+                          "size":  1020460,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:14.4800000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_023_B0.wav",
+                          "sha256":  "5C78BADEB1D7B6EE2A557FCC2C8955399FBFECB978D37C1F7207CDA637B5432C",
+                          "size":  1020460,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:15.5800000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_024_C1.wav",
+                          "sha256":  "C4E153AA4E2ABFDB2FC41D1A71F8BEE3632E4FFA812A657E2CFE61DBEA791AF4",
+                          "size":  1013548,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:16.6700000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_025_Cs1.wav",
+                          "sha256":  "AAA1AA7C2989774E060DA3DCE240615356664758731C85C71195235715830FB6",
+                          "size":  1013548,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:17.7300000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_026_D1.wav",
+                          "sha256":  "BA3CE5366F2C71A13102AB0B0AA6B868B4779DBD55D4E2609AC0619363748BA8",
+                          "size":  988716,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:18.7800000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_027_Ds1.wav",
+                          "sha256":  "94572EE0706009A38C445C5100230A7C1DD956214EB14D441DFE2830DFC52249",
+                          "size":  988716,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:19.8300000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_028_E1.wav",
+                          "sha256":  "44E044C7DC0C02C9B8CCA62E9AD74615C286A4F1843FD86DFA048FE2E577F463",
+                          "size":  988716,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:20.9000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_029_F1.wav",
+                          "sha256":  "C08B545AD74E2F2FD3476058F5C0118352CCDE5E0D40405D68580B8F871D76C5",
+                          "size":  988716,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:21.9600000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_030_Fs1.wav",
+                          "sha256":  "D63BEA96C053EBAA9A68A3D88B2AC67D48FA8D4C271D32936B4B10FCC085A2C1",
+                          "size":  971052,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:23.0100000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_031_G1.wav",
+                          "sha256":  "95F28F3F8CE8BB31C4F5EC514A99E10EC636677CC1A55196C54AACE7A6455AFA",
+                          "size":  971052,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:24.0600000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_032_Gs1.wav",
+                          "sha256":  "7928F796DED527C1E983F3E5142E023CF69C57C7540E2DD98099812300360BBA",
+                          "size":  971052,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:25.1100000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_033_A1.wav",
+                          "sha256":  "85EF153E93F7AB4E2FBD499AE8228C2633A60F51A704E0CB78EBDCE645F4963A",
+                          "size":  971052,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:26.1400000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_034_As1.wav",
+                          "sha256":  "A33E73948AC2373E3AF72BC4ECABB58A3AFA595A6BAABA8ABAD360C48D5973E2",
+                          "size":  935980,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:27.2000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_035_B1.wav",
+                          "sha256":  "4E3A188A479505FDAA5104332BEA5AD27C66A47004B33D08EBC2078F23D8CEB5",
+                          "size":  935980,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:28.2500000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_036_C2.wav",
+                          "sha256":  "CD36AEF4C3474D352D982648B280B5E145E62AE6F18137263C8F3DF04D507056",
+                          "size":  935980,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:29.2900000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_037_Cs2.wav",
+                          "sha256":  "8E85EA3C1B1F7B088767382769C8953F6C4F568CCBEFD673E9E5D817DEC5DC25",
+                          "size":  935980,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:30.3600000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_038_D2.wav",
+                          "sha256":  "BFF592C7C24840814A26B31BDD975C2E68A3A8F72C715F2733E18A24936DC785",
+                          "size":  935980,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:31.3900000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_039_Ds2.wav",
+                          "sha256":  "BDC79B4177A22C8ABD1FC3494748A04D3F4691C01D912F0CBC49CD463304078E",
+                          "size":  935980,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:32.4400000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_040_E2.wav",
+                          "sha256":  "8E883A8E591A672C13071FC66D0A023AC84827AF6E615FD2F10607FA0CFA7C06",
+                          "size":  935980,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:33.5100000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_041_F2.wav",
+                          "sha256":  "44C1C3702EDEE973F40E88FA39B13378A476C7C2CDC65F8DFE0AF443DE119A77",
+                          "size":  935980,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:34.5700000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_042_Fs2.wav",
+                          "sha256":  "5A207E2040732B217EAB2AF7B0286CC1669F945AF0BC626E7C42CFC44DCCB065",
+                          "size":  935980,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:35.6100000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_043_G2.wav",
+                          "sha256":  "305EFCB4E1A6C0DC1332122745014BC5BAB04D645AA7B380F644FF3F732274F2",
+                          "size":  935980,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:36.6700000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_044_Gs2.wav",
+                          "sha256":  "A26E80DCF334304623A787B4934CF6053D22CA502E9CCACBDB282D314831EC27",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:37.7200000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_045_A2.wav",
+                          "sha256":  "EE8EE74498EB419BF70D0139F7C427F901BCDB1D6A8D853AEBC817F810333A9B",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:38.7700000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_046_As2.wav",
+                          "sha256":  "56756CD5FD5F8E6614251612CD53AD95EC8ADC46218D561A0C4F0A39B3BFFB24",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:39.8200000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_047_B2.wav",
+                          "sha256":  "C0A646F786CE446FA7320FDCA682FCCE0309861F5D223F84D656FEB2330B1C61",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:40.8500000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_048_C3.wav",
+                          "sha256":  "B1C0BD9C821A3755B513CFD2638551E34833339D66CAAC634C18BC65F950EAF7",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:41.9000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_049_Cs3.wav",
+                          "sha256":  "8A992402C97525508F35DA805FDC1947CBEB4F6E6DC19138A67AB2D71A1573F1",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:42.9400000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_050_D3.wav",
+                          "sha256":  "8073FD3BF248E134C29A5B3A29FFDF1E3A25B7CD9E237296305CB956FF0DBDCC",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:44.0100000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_051_Ds3.wav",
+                          "sha256":  "EAE15A8C3FE63788B5F3D82DAE3DB3658739393150DD4540A6E4622DD8D8B981",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:45.0500000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_052_E3.wav",
+                          "sha256":  "39296AC08B80210F33DB532AF68ABFFD7B89A8C3DEA70160E8ACDC4B5EF117F9",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:46.1400000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_053_F3.wav",
+                          "sha256":  "101ACD1AB4710EC80A2944D1AFA36B0C10D864FC6AD8B291F45E5E613E335461",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:47.1900000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_054_Fs3.wav",
+                          "sha256":  "B23EFB75AE1F304A9BF9CA1C854E67C63FFEF2BEAC8FC257B09B73645E0C1A11",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:48.2300000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_055_G3.wav",
+                          "sha256":  "B7DE7E51E74706AF331D2C1305D19A063AE65845FF2CABE74956E984B6F41D41",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:49.3000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_056_Gs3.wav",
+                          "sha256":  "144E2EE1ED36917D3F824859B3B6C6A4BE24A2A3D6EFBD67D13FA5F39A467A1F",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:50.3500000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_057_A3.wav",
+                          "sha256":  "C1372F1D8A97E0EF66F31004852901BD2ED9A12A3AE1AF3AC8B06CACD281F8C5",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:51.4000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_058_As3.wav",
+                          "sha256":  "C0CC726A1B76ABC096BDE5E0DFFE1748F2F0D5CF1E537C9CBE36724056392547",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:52.4500000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_059_B3.wav",
+                          "sha256":  "1D5384F637DC664BDB15D27DB2F55CF5E6DFED2673E2E4867F32F561F1622D94",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:53.5000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_060_C4.wav",
+                          "sha256":  "FF7A2B83D79538F0A762FE5E8BB0CAD3E147E1FD75A0484676026A4C5FE9EBFF",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:54.5200000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_061_Cs4.wav",
+                          "sha256":  "EB7FA1A0E2D5BBEF8A4437B1937775DD82F1E017B9F962F21A5FC1D67502FF25",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:55.5800000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_062_D4.wav",
+                          "sha256":  "2970644D990B0A3972804C523055B2ABF3BA1AA7167494C365BD37CE4859BD2B",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:56.6100000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_063_Ds4.wav",
+                          "sha256":  "E04059DC0EA781C8F662C63E83C7F1BE4A577886751C4D4A5AEA92061D51AA79",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:57.6600000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_064_E4.wav",
+                          "sha256":  "06B5D6D0AACAFD3F2D841D199D9E1115611635A65AA7F48E8A20EA1B463C7A16",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:58.7500000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_065_F4.wav",
+                          "sha256":  "12090E9343D633E704F9968DF1253C2F4B5BBDD78D18A7230C45A57B2B73E4AD",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:01:59.7800000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_066_Fs4.wav",
+                          "sha256":  "1F79184CC0CC3750FE01C9FE6A01095402F1A288351482679F5A6EE9398B15FD",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:00.8500000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_067_G4.wav",
+                          "sha256":  "5002EEC90B181358D12C502293EB41B861BEEF71C4E099012B4F325D8B29A80B",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:01.9100000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_068_Gs4.wav",
+                          "sha256":  "5E7C8B8619CF6FCE8A4DCE32282C6A0CBE22FE4311C904EA7B434F7EEB119178",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:02.9600000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_069_A4.wav",
+                          "sha256":  "A3015069E3E8741BE08D97C0E78A07D5E5B66AC66024F3EE2B07F1506EAC1037",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:04.0100000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_070_As4.wav",
+                          "sha256":  "80E649EA0728C954591AAA8144B4A58A27E6DB7B1A7518AC64EBCD5A9787951E",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:05.0800000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_071_B4.wav",
+                          "sha256":  "F42629F9385F2F1BA5880E4A08329064D5CD6149A4C249C5CF5752C8F643D5F6",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:06.1100000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_072_C5.wav",
+                          "sha256":  "CD32EE0E04DAF82BDE94C6535B679D3CB016942490AAC1748A614895C3194A30",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:07.1500000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_073_Cs5.wav",
+                          "sha256":  "3A4FBB81A0F8D12B24C7D37684174CDAE08A3F145E98936B7375427DC3903A2C",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:08.2000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_074_D5.wav",
+                          "sha256":  "2B04D461916AB01098E356DD0967DE985F7CFA408F19847979BDC7E6DBB344DC",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:09.2500000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_075_Ds5.wav",
+                          "sha256":  "4CBD327173B91DED43F8B1FA06A7D63AD4749800D51616C961B9F9CA8D47C86F",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:10.2900000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_076_E5.wav",
+                          "sha256":  "363040E505D0B5C536587F3E3CC27E21C9D049A9159FE142C6A4239FCDA54CFD",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:11.3500000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_077_F5.wav",
+                          "sha256":  "A69FA0D6A17638262CECE5849B4FDA0CE15001D69D608F60942B92BEE3715155",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:12.3900000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_078_Fs5.wav",
+                          "sha256":  "A60F3BB339231BF6152015A9F0DCD2766E8A59B32F88939B682C45412E467650",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:13.4400000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_079_G5.wav",
+                          "sha256":  "AC39694F1ACE60110DA13207DBB39268F8F487049BBDB6699E961B6BBC2AF112",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:14.5000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_080_Gs5.wav",
+                          "sha256":  "D350C54567BBE97D67C80584833B4C48B1354E18B547C365A4EF59FD843A28AF",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:15.5600000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_081_A5.wav",
+                          "sha256":  "0985375D137F195EB63A6D7550FD48E632A9F3FDA516CE3B3F5347EF011DC5D6",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:16.6100000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_082_As5.wav",
+                          "sha256":  "C90B02ECD340C788A554FD923603272A78CBB94F04324BB2C869AE28B55B3E83",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:17.6600000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_083_B5.wav",
+                          "sha256":  "189947CA82DA89424A79685F04315EE35C22836E12698055D8C09BAC0D487EE0",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:18.6900000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_084_C6.wav",
+                          "sha256":  "19E1FE1776581378A6135FC4E494912D9C23D5E481801392B3603EC293C4E6C0",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:19.7300000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_085_Cs6.wav",
+                          "sha256":  "8E113243E2A84657021BE7422F5B7FC91DA2EF399AD58E8003E64BB61827E849",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:20.7800000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_086_D6.wav",
+                          "sha256":  "4E623AE4A7508E20A54412D9C4534E5A876F4DD295C4AF5370EB3B3DDCE3C15E",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:21.8200000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_087_Ds6.wav",
+                          "sha256":  "4F2AFB234336731ACDE1D653946D7FD4CA35EFE5B124EDA4E44888F297898F5A",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:22.8600000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_088_E6.wav",
+                          "sha256":  "4DEFC216892D54065646FF6BC86D7960ABE9AECFA41938AB71E50556AEC3A6F4",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:23.9100000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_089_F6.wav",
+                          "sha256":  "80490471B816119F5B222C9D84A5A2750AC6DD58D28942ABF22766C96AEF6451",
+                          "size":  859948,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:24.9600000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_090_Fs6.wav",
+                          "sha256":  "C4201F1362CA7046512B69A50EF09D1D6E40E1E87BAAAFB90E922CD2B5F24B2C",
+                          "size":  2294060,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:26.0900000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_091_G6.wav",
+                          "sha256":  "19F51AE4C20FD23DD1E3EC0CA8E1B11715F79EBA4ABA6FCE6D5F8C17BB40E4EE",
+                          "size":  2294060,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:27.2400000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_092_Gs6.wav",
+                          "sha256":  "BBC9C41801EF50EB03BCFF86DCBDE4E6CF598FD5FC7A94C9B322115963CEB363",
+                          "size":  1941292,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:28.3400000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_093_A6.wav",
+                          "sha256":  "D83C0F789EFEA38C46AD00ED09C839D2A632D4F1970BB2106740B36EC0E75829",
+                          "size":  1941292,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:29.4700000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_094_As6.wav",
+                          "sha256":  "E0E9CCE88230C414C52021A1B5CD628344E53E720BFC0D70BA11350AA03FBBA3",
+                          "size":  1941292,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:30.6000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_095_B6.wav",
+                          "sha256":  "DB9C4760C4B3A7A06277C3E4AAC61251C37839E55EF06C1B49597537154C8098",
+                          "size":  1941292,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:31.7200000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_096_C7.wav",
+                          "sha256":  "3A43248C08554DE0CBE703DFE17A77A86CFC61673B8B8B4994BF2B3953F38272",
+                          "size":  1941292,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:32.8400000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_097_Cs7.wav",
+                          "sha256":  "EE653548A8C962FEF37B100CAA4E5B7DEC0EBCA970447335F030883E59C65668",
+                          "size":  1941292,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:33.9700000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_098_D7.wav",
+                          "sha256":  "F511CBFC5FF107BB2A2FDFCC7ADC2F87724C42E0F9FCEEE59F11AD96CDEE3ED3",
+                          "size":  1941292,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:35.0900000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_099_Ds7.wav",
+                          "sha256":  "6B1A977D516738B42CB5EFE9F34D6970E29A76D632095CE41DB020750A188E78",
+                          "size":  1941292,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:36.2100000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_100_E7.wav",
+                          "sha256":  "104C285A0B85158AE36D35B6EF2962A88A34F79A341BDBB3FB12ED3D98BEBFDB",
+                          "size":  1941292,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:37.3400000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_101_F7.wav",
+                          "sha256":  "1D099C1AC3547EA64DC83E1C4578D4F84E4F8F6A306987CD93A2D412D7F5A90E",
+                          "size":  1941292,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:38.4700000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_102_Fs7.wav",
+                          "sha256":  "1103518040CAAF3695C9224DDAB5CDDB43EDF193D87399286D7AE8C5F5B02E62",
+                          "size":  1941292,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:39.5900000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_103_G7.wav",
+                          "sha256":  "0B384EA633B50EDCB85BD3A52CDFA827C2C85B3A9833121BC398EF334EAF613D",
+                          "size":  1941292,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:40.7100000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_104_Gs7.wav",
+                          "sha256":  "7989529A2ACFE28876FBB3DC891637C2DE6BBEA51D86B00CBBCFD458507A23C6",
+                          "size":  1941292,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:41.8300000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_105_A7.wav",
+                          "sha256":  "35C7D62714EBAF02F19DA73EE4B4AFB22412E388F080CCBBBB8E9784FE769516",
+                          "size":  1941292,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:42.9600000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_106_As7.wav",
+                          "sha256":  "33B8BC00D41C160FFCC20BB1A04022A00D727430B8402DE3F26FF3C649D02C74",
+                          "size":  1941292,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:44.1000000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_107_B7.wav",
+                          "sha256":  "1E6F383B525C493A38748946ECB34884A8C84FC28084A36925ECE51A2587B108",
+                          "size":  1941292,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:45.2100000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\assets\\sounds\\note_108_C8.wav",
+                          "sha256":  "F6ECB6EC3DDD3545AABA4663BB002DFCC487D760D9D8F4652D1C70AF04653788",
+                          "size":  1941292,
+                          "lastWriteTimeUtc":  "2025-08-01T23:02:46.3100000Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\catalog\\pd_catalog.json",
+                          "sha256":  "F33739F0EE4081BC9D0F06347EE39F4B464625F7613D17D4673A2530B0E3D40A",
+                          "size":  50889507,
+                          "lastWriteTimeUtc":  "2026-04-05T19:21:26.4958609Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\fonts\\MaterialIcons-Regular.otf",
+                          "sha256":  "D9BAD7F2677571A9C5586BB96A9FD3769A1C7742771F0165F3F9D088DF89C1E1",
+                          "size":  7736,
+                          "lastWriteTimeUtc":  "2026-04-08T01:01:29.6607409Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\packages\\cupertino_icons\\assets\\CupertinoIcons.ttf",
+                          "sha256":  "06196FB38B767DB17DCC9CCA2B4B3593BB985926067054B7F0D6D2305A2DDAFA",
+                          "size":  11376,
+                          "lastWriteTimeUtc":  "2026-04-08T01:01:29.6572968Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\packages\\wakelock_plus\\assets\\no_sleep.js",
+                          "sha256":  "DCE4EEF0B197B640AD6AAAB2228EE1EE7DCCF8BD6D6B5DE5484DD1BD16430A78",
+                          "size":  13344,
+                          "lastWriteTimeUtc":  "2026-01-28T17:34:12.7351600Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\shaders\\ink_sparkle.frag",
+                          "sha256":  "E01B61B394CF66A641BEA87E3B4FE3787D372F636C8BC8A2A67438CDC29DA6F6",
+                          "size":  8867,
+                          "lastWriteTimeUtc":  "2026-04-08T01:01:26.2425333Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\assets\\shaders\\stretch_effect.frag",
+                          "sha256":  "FA9CCF8E429631A461C7A7C644DABA811A53463F78AA2AD023E0E9C81B815B4A",
+                          "size":  6714,
+                          "lastWriteTimeUtc":  "2026-04-08T01:01:26.2947089Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\canvaskit\\canvaskit.js",
+                          "sha256":  "5B96DEFF653E229163D08BB51E5F17F0831397FD17D4DDBB3D872642738EF9AB",
+                          "size":  86619,
+                          "lastWriteTimeUtc":  "2026-02-15T02:50:15.5239304Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\canvaskit\\canvaskit.js.symbols",
+                          "sha256":  "8545246BD28D21239A76FD9046C1B5F0BE616D557225FCB16E8FA012BE2AB6E4",
+                          "size":  1341680,
+                          "lastWriteTimeUtc":  "2026-02-15T02:50:15.5319215Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\canvaskit\\canvaskit.wasm",
+                          "sha256":  "98FF521224F8C66763D6772C94B9773D29C7FB8CD2E53342BF6E3C8203B84B4D",
+                          "size":  7083768,
+                          "lastWriteTimeUtc":  "2026-02-15T02:50:15.6106680Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\canvaskit\\skwasm.js",
+                          "sha256":  "CA8A64F5A38C60A4632DE39763DA568ABDF5F29C708D723DC559ADB06522DC3D",
+                          "size":  60657,
+                          "lastWriteTimeUtc":  "2026-02-15T02:50:15.7196764Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\canvaskit\\skwasm.js.symbols",
+                          "sha256":  "C649CF709B19F088BCB1BDECDFBE1A574368179A55DD70F790B4A3C4F4DE02FF",
+                          "size":  1519144,
+                          "lastWriteTimeUtc":  "2026-02-15T02:50:15.7287242Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\canvaskit\\skwasm.wasm",
+                          "sha256":  "8CB52710D025BB70154843148F2F9B5F16C4719D95809908C285B20BC18BAC64",
+                          "size":  3551820,
+                          "lastWriteTimeUtc":  "2026-02-15T02:50:15.7869666Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\canvaskit\\skwasm_heavy.js",
+                          "sha256":  "E3039D0A604A5E2EF146E49C837DD93E01D90F292D4969A73BEB3000B63DBE8B",
+                          "size":  60770,
+                          "lastWriteTimeUtc":  "2026-02-15T02:50:15.7979232Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\canvaskit\\skwasm_heavy.js.symbols",
+                          "sha256":  "D7DD7FDC0E4161F27C404C1732F3512795628E07D0B3FAB4C074A48D28168F2C",
+                          "size":  1638235,
+                          "lastWriteTimeUtc":  "2026-02-15T02:50:15.8326771Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\canvaskit\\skwasm_heavy.wasm",
+                          "sha256":  "1C52F15388C3F192700AB780A941CAC16A7999D0E32F7FAE821FA4BF90536265",
+                          "size":  5047312,
+                          "lastWriteTimeUtc":  "2026-02-15T02:50:15.8996220Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\canvaskit\\chromium\\canvaskit.js",
+                          "sha256":  "E97A3AC057E9D8C9E80B024F2D72C005D21A1F8D98E3E33F439F3744D544F88A",
+                          "size":  86256,
+                          "lastWriteTimeUtc":  "2026-02-15T02:50:15.6136779Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\canvaskit\\chromium\\canvaskit.js.symbols",
+                          "sha256":  "BA2A7000FB5A791513802886A14551E15BE98EB2B02161C0F56CA3D3A4799D0B",
+                          "size":  1263564,
+                          "lastWriteTimeUtc":  "2026-02-15T02:50:15.6202212Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\canvaskit\\chromium\\canvaskit.wasm",
+                          "sha256":  "DE186B1791A7DE02D9CAFE60AB99FF9FE018E1AE53D9C0E190B7737464D49D17",
+                          "size":  5708955,
+                          "lastWriteTimeUtc":  "2026-02-15T02:50:15.7176711Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\icons\\Icon-192.png",
+                          "sha256":  "340BF441462FE27FB2DCC8E5DFAAF1BDF6A5837526DBE3CD26A5DEC3EF936110",
+                          "size":  31431,
+                          "lastWriteTimeUtc":  "2026-04-08T00:57:46.3474173Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\icons\\Icon-512.png",
+                          "sha256":  "322DADCFCFE44880FFAFB764454EC66E8070BD3D8B928FF392647913745F797E",
+                          "size":  86804,
+                          "lastWriteTimeUtc":  "2026-04-08T00:57:46.4374566Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\icons\\Icon-maskable-192.png",
+                          "sha256":  "340BF441462FE27FB2DCC8E5DFAAF1BDF6A5837526DBE3CD26A5DEC3EF936110",
+                          "size":  31431,
+                          "lastWriteTimeUtc":  "2026-04-08T00:57:46.4815373Z"
+                      },
+                      {
+                          "path":  "C:\\development2026\\grandpiano\\build\\web\\icons\\Icon-maskable-512.png",
+                          "sha256":  "322DADCFCFE44880FFAFB764454EC66E8070BD3D8B928FF392647913745F797E",
+                          "size":  86804,
+                          "lastWriteTimeUtc":  "2026-04-08T00:57:46.5640852Z"
+                      },
+                      {
+                          "path":  "build/app/outputs/flutter-apk/app-release.apk",
+                          "sha256":  "5C3FE9C30F345FAD64050EEC180B86BEF71D9B28EDD699CCDBD728CC6917A1D7",
+                          "size":  311371389,
+                          "lastWriteTimeUtc":  "2026-04-08T01:10:47.4564865Z"
+                      },
+                      {
+                          "path":  "downloads/bridge/android/gyro-midi-bridge-android.apk",
+                          "sha256":  "FB2262081F79AC7973BF8D3DD6E91E4453CAC4BE99CC3199CA420214A6320FA8",
+                          "size":  45005875,
+                          "lastWriteTimeUtc":  "2026-04-08T01:06:38.5498702Z"
+                      },
+                      {
+                          "path":  "downloads/bridge/windows/gyro-midi-bridge-windows.zip",
+                          "sha256":  "94FD60F613D691CE92B177C67EEC4991E43DB7FED703FB99A958FFB8308AF9B0",
+                          "size":  11234375,
+                          "lastWriteTimeUtc":  "2026-04-08T01:06:47.0472349Z"
+                      },
+                      {
+                          "path":  "downloads/bridge/manifest.json",
+                          "sha256":  "790340703B1508A3D367912533CAE739266AEEB043C450CD8FBFF5B2D9021C20",
+                          "size":  1296,
+                          "lastWriteTimeUtc":  "2026-04-05T11:37:36.4661665Z"
+                      },
+                      {
+                          "path":  "catalog/pd_catalog.json",
+                          "sha256":  "F33739F0EE4081BC9D0F06347EE39F4B464625F7613D17D4673A2530B0E3D40A",
+                          "size":  50889507,
+                          "lastWriteTimeUtc":  "2026-04-05T19:21:26.4958609Z"
+                      }
+                  ]
+}
