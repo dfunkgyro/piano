@@ -1,0 +1,27 @@
+{
+  "Comment": "ACM validation",
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "_11076820915461516983d58d129b7397.thegyromusic.com.",
+        "Type": "CNAME",
+        "TTL": 300,
+        "ResourceRecords": [
+          {"Value": "_6fb46bb02ddab33c4a9289420e237b4a.jkddzztszm.acm-validations.aws."}
+        ]
+      }
+    },
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "_c80cedd9739e143f30429936055f3f4e.pianoapp.thegyromusic.com.",
+        "Type": "CNAME",
+        "TTL": 300,
+        "ResourceRecords": [
+          {"Value": "_04a6fc54ff5c3339bc2bcbc3b8f161bb.jkddzztszm.acm-validations.aws."}
+        ]
+      }
+    }
+  ]
+}

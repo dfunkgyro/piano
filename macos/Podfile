@@ -1,0 +1,80 @@
+platform :osx, '10.15'
+
+# CocoaPods analytics sends network stats synchronously affecting flutter build latency.
+ENV['COCOAPODS_DISABLE_STATS'] = 'true'
+
+project 'Runner', {
+  'Debug' => :debug,
+  'Profile' => :release,
+  'Release' => :release,
+}
+
+def flutter_root
+  generated_xcode_build_settings_path = File.expand_path(File.join('..', 'Flutter', 'ephemeral', 'Flutter-Generated.xcconfig'), __FILE__)
+  unless File.exist?(generated_xcode_build_settings_path)
+    raise "#{generated_xcode_build_settings_path} must exist. If you're running pod install manually, make sure \"flutter pub get\" is executed first"
+  end
+
+  File.foreach(generated_xcode_build_settings_path) do |line|
+    matches = line.match(/FLUTTER_ROOT\=(.*)/)
+    return matches[1].strip if matches
+  end
+  raise "FLUTTER_ROOT not found in #{generated_xcode_build_settings_path}. Try deleting Flutter-Generated.xcconfig, then run \"flutter pub get\""
+end
+
+require File.expand_path(File.join('packages', 'flutter_tools', 'bin', 'podhelper'), flutter_root)
+
+flutter_macos_podfile_setup
+
+target 'Runner' do
+  use_frameworks!
+  use_modular_headers!
+
+  flutter_install_all_macos_pods File.dirname(File.realpath(__FILE__))
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    flutter_additional_macos_build_settings(target)
+    
+    target.build_configurations.each do |config|
+      # Set deployment target for compatibility with older macOS versions
+      config.build_settings['MACOSX_DEPLOYMENT_TARGET'] = '10.15'
+      
+      # Code signing settings
+      config.build_settings['CODE_SIGN_IDENTITY'] = '-'
+      config.build_settings['CODE_SIGN_STYLE'] = 'Automatic'
+      
+      # Disable bitcode (not needed for macOS)
+      config.build_settings['ENABLE_BITCODE'] = 'NO'
+      
+      # Enable Swift compatibility
+      config.build_settings['SWIFT_VERSION'] = '5.0'
+      
+      # Ensure proper architecture support
+      config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+      config.build_settings['VALID_ARCHS'] = 'x86_64 arm64'
+      
+      # Framework search paths for MIDI
+      config.build_settings['FRAMEWORK_SEARCH_PATHS'] ||= ['$(inherited)']
+      config.build_settings['FRAMEWORK_SEARCH_PATHS'] << '"$(PLATFORM_DIR)/Developer/Library/Frameworks"'
+      
+      # Header search paths
+      config.build_settings['HEADER_SEARCH_PATHS'] ||= ['$(inherited)']
+      config.build_settings['HEADER_SEARCH_PATHS'] << '"${PODS_ROOT}/Headers/Public"'
+      
+      # Other linker flags for CoreMIDI
+      config.build_settings['OTHER_LDFLAGS'] ||= ['$(inherited)']
+      config.build_settings['OTHER_LDFLAGS'] << '-framework CoreMIDI'
+      config.build_settings['OTHER_LDFLAGS'] << '-framework CoreBluetooth'
+      config.build_settings['OTHER_LDFLAGS'] << '-framework CoreAudio'
+      
+      # Warnings
+      config.build_settings['WARNING_CFLAGS'] ||= ['$(inherited)']
+      config.build_settings['WARNING_CFLAGS'] << '-Wno-deprecated-declarations'
+      
+      # For Monterey compatibility
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '10.15'
+    end
+  end
+end

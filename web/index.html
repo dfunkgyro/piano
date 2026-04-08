@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Gyro Piano - Bluetooth MIDI, lessons, and performance tools.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Gyro Piano">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Gyro Piano</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Force cache bust by disabling service worker + clearing caches -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+</head>
+<body>
+  <script>
+    (function() {
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(regs) {
+          regs.forEach(function(reg) { reg.unregister(); });
+        });
+      }
+      if (window.caches && caches.keys) {
+        caches.keys().then(function(keys) {
+          keys.forEach(function(key) { caches.delete(key); });
+        });
+      }
+    })();
+  </script>
+  <script>
+    (function() {
+      var overlay;
+      function ensureOverlay() {
+        if (overlay) return overlay;
+        overlay = document.createElement("div");
+        overlay.id = "error-overlay";
+        overlay.style.position = "fixed";
+        overlay.style.left = "12px";
+        overlay.style.right = "12px";
+        overlay.style.bottom = "12px";
+        overlay.style.maxHeight = "45vh";
+        overlay.style.overflow = "auto";
+        overlay.style.background = "rgba(8,10,14,0.92)";
+        overlay.style.color = "#ffb3b3";
+        overlay.style.border = "1px solid rgba(255,120,120,0.4)";
+        overlay.style.borderRadius = "12px";
+        overlay.style.padding = "12px 14px";
+        overlay.style.fontFamily = "ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace";
+        overlay.style.fontSize = "12px";
+        overlay.style.zIndex = "99999";
+        overlay.style.display = "none";
+        overlay.innerHTML =
+          "<div style='display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;'>" +
+          "<strong style='color:#ff7a7a;'>Runtime Errors</strong>" +
+          "<button id='error-overlay-hide' style='background:transparent;border:1px solid rgba(255,255,255,0.2);color:#fff;border-radius:8px;padding:2px 8px;cursor:pointer;'>Hide</button>" +
+          "</div>" +
+          "<div id='error-overlay-body'></div>";
+        document.body.appendChild(overlay);
+        document.getElementById("error-overlay-hide").onclick = function() {
+          overlay.style.display = "none";
+        };
+        return overlay;
+      }
+
+      function logError(message, source, lineno, colno, error) {
+        var ov = ensureOverlay();
+        var body = document.getElementById("error-overlay-body");
+        var entry = document.createElement("div");
+        entry.style.marginBottom = "10px";
+        entry.innerHTML =
+          "<div style='color:#ffd1d1;'>" + (message || "Unknown error") + "</div>" +
+          "<div style='color:#b0b0b0;'>" +
+          [source, lineno, colno].filter(Boolean).join(" : ") +
+          "</div>" +
+          (error && error.stack ? "<pre style='white-space:pre-wrap;color:#c7c7c7;margin-top:6px;'>" + error.stack + "</pre>" : "");
+        body.prepend(entry);
+        ov.style.display = "block";
+      }
+
+      window.addEventListener("error", function(event) {
+        logError(event.message, event.filename, event.lineno, event.colno, event.error);
+      });
+      window.addEventListener("unhandledrejection", function(event) {
+        var reason = event.reason || {};
+        logError("Unhandled promise rejection", "", "", "", reason);
+      });
+    })();
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

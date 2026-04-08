@@ -1,0 +1,56 @@
+﻿[
+    {
+        "Key":  "index.html",
+        "VersionId":  "null",
+        "ETag":  "\"8299fe49d0fb23394fe37bbf53d8bb65\"",
+        "LastModified":  "2026-03-30T20:52:58+00:00"
+    },
+    {
+        "Key":  "main.dart.js",
+        "VersionId":  "null",
+        "ETag":  "\"2fd197bc50a44105b21a8433e1d1d829\"",
+        "LastModified":  "2026-03-30T20:52:59+00:00"
+    },
+    {
+        "Key":  "flutter_bootstrap.js",
+        "VersionId":  "null",
+        "ETag":  "\"80530946855a19c2ab55304d29522244\"",
+        "LastModified":  "2026-03-30T20:53:02+00:00"
+    },
+    {
+        "Key":  "flutter_service_worker.js",
+        "VersionId":  "null",
+        "ETag":  "\"d41d8cd98f00b204e9800998ecf8427e\"",
+        "LastModified":  "2026-03-30T20:53:02+00:00"
+    },
+    {
+        "Key":  "version.json",
+        "VersionId":  "null",
+        "ETag":  "\"c5907a65032d9af279d5177385f3e6ba\"",
+        "LastModified":  "2026-03-30T20:53:02+00:00"
+    },
+    {
+        "Key":  "assets/AssetManifest.bin",
+        "VersionId":  "null",
+        "ETag":  "\"cc88c3604290eb9d92b3d160cc328ff7\"",
+        "LastModified":  "2026-03-30T20:52:58+00:00"
+    },
+    {
+        "Key":  "assets/AssetManifest.bin.json",
+        "VersionId":  "null",
+        "ETag":  "\"4eb99f099130938ef1e0d693699faa39\"",
+        "LastModified":  "2026-03-30T20:53:02+00:00"
+    },
+    {
+        "Key":  "assets/FontManifest.json",
+        "VersionId":  "null",
+        "ETag":  "\"dc3d03800ccca4601324923c0b1d6d57\"",
+        "LastModified":  "2026-03-30T20:53:02+00:00"
+    },
+    {
+        "Key":  "assets/NOTICES",
+        "VersionId":  "null",
+        "ETag":  "\"d0be2f48947fdc99cba49e9a6b7c30be\"",
+        "LastModified":  "2026-03-30T20:53:01+00:00"
+    }
+]

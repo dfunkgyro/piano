@@ -1,0 +1,101 @@
+name: grandpiano
+description: Professional MIDI Piano app with Bluetooth MIDI support, AI tutor, advanced teaching, and cloud sync
+
+publish_to: 'none'
+
+version: 3.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # MIDI and Bluetooth
+  flutter_midi_command: ^0.5.3
+  flutter_blue_plus: ^1.32.11
+  flutter_bluetooth_serial: ^0.4.0
+  flutter_reactive_ble: ^5.0.3
+  universal_ble: ^0.9.11
+
+  # Audio
+  audioplayers: ^5.2.1
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # Environment variables
+  flutter_dotenv: ^5.1.0
+
+  # HTTP for AWS AI
+  http: ^1.2.1
+
+  # Low-latency audio (web + native)
+  just_audio: ^0.9.36
+
+  # Prevent device sleep during practice
+  wakelock_plus: ^1.2.0
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+  # Utilities
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.2
+  amazon_cognito_identity_dart_2: ^3.7.0
+  
+  # JSON handling
+  json_annotation: ^4.8.1
+  
+  # State management (optional but recommended)
+  provider: ^6.1.1
+
+dependency_overrides:
+  flutter_bluetooth_serial:
+    path: third_party/flutter_bluetooth_serial
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
+  json_serializable: ^6.7.1
+  build_runner: ^2.4.8
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  web:
+    generate: true
+    image_path: "assets/icon/icon.png"
+    background_color: "#0B0F1A"
+    theme_color: "#0B0F1A"
+  macos:
+    generate: true
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
+  
+  # Assets
+  assets:
+    - assets/fonts/
+    - assets/sounds/
+    - assets/icon/
+    - assets/images/
+    - catalog/
+    - assets/app.env
+    - assets/sheet_music/
+    - assets/tutorials/
+  
+  # Fonts for music notation (optional)
+  # fonts:
+  #  - family: MusicFont
+  #    fonts:
+  #      - asset: fonts/Bravura.otf
+
+

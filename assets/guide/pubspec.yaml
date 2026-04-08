@@ -1,0 +1,62 @@
+name: midi_piano_pro
+description: Professional MIDI Piano app with Bluetooth MIDI support, AI tutor, and advanced latency management
+
+publish_to: 'none'
+
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # MIDI and Bluetooth
+  flutter_midi_command: ^0.5.3
+  flutter_blue_plus: ^1.32.11  # Added for robust BLE scanning
+  flutter_bluetooth_serial: ^0.4.0
+
+  # Audio (using compatible version for macOS)
+  audioplayers: ^5.2.1
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # Database (Supabase)
+  supabase_flutter: ^2.5.0
+
+  # Environment variables
+  flutter_dotenv: ^5.1.0
+
+  # HTTP for OpenAI
+  http: ^1.2.0
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+  # Utilities
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.2
+  
+  # Wake Lock - Prevent device sleep during practice
+  wakelock_plus: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  macos: true
+  image_path: "assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/sounds/
+    - assets/icon/
+    - assets/.env

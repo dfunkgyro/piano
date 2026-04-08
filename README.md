@@ -1,16 +1,25 @@
 # piano
 
-Release management and rollback metadata for the current GrandPiano stable build live here.
+This repository now holds the GrandPiano app source, release tooling, and rollback metadata.
+
+## Stable release workflow
+Create and protect a stable release with:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File tools\release_stable.ps1 -ReleaseId stable-YYYY-MM-DD-HHMM
+```
+
+This will:
+1. build the web app
+2. build the Android APK
+3. create an immutable release snapshot in S3
+4. deploy the web app
+5. invalidate CloudFront
+
+## Rollback
+```powershell
+powershell -ExecutionPolicy Bypass -File tools\rollback_release.ps1 -ReleaseId stable-2026-04-08-0208
+```
 
 ## Current protected release
 - `stable-2026-04-08-0208`
-
-## Files
-- `ROLLBACK.md`
-- `tools/create_release_snapshot.ps1`
-- `tools/rollback_release.ps1`
-- `releases/stable-2026-04-08-0208/release-manifest.json`
-- `releases/stable-2026-04-08-0208/artifact-hashes.json`
-
-## Important limitation
-This repository is currently not the full app source repository. It stores rollback tooling and release metadata, but source-code rollback protection requires the actual app source to be versioned in git.

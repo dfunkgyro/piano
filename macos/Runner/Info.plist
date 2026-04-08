@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>MIDI Piano Pro</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>MIDI Piano Pro</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.15</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright Â© 2025 Gyro Grand Piano. All rights reserved.</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	
+	<!-- Bluetooth Permissions -->
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>MIDI Piano Pro needs Bluetooth access to connect to your MIDI keyboard and controllers. This enables wireless piano playing with low latency.</string>
+	
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>This app needs Bluetooth to discover and connect to BLE-MIDI devices like piano keyboards, synthesizers, and MIDI controllers.</string>
+	
+	<!-- Audio Permissions -->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>MIDI Piano Pro needs audio access to play realistic piano sounds through your speakers or headphones.</string>
+	
+	<!-- Network Permissions -->
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>This app needs network access to sync your settings with AWS cloud storage and connect to the AI piano tutor powered by AWS.</string>
+	
+	<!-- Camera (not used, but included for completeness) -->
+	<key>NSCameraUsageDescription</key>
+	<string>This app does not use the camera.</string>
+	
+	<!-- High Resolution Support -->
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	
+	<!-- Dark Mode Support -->
+	<key>NSRequiresAquaSystemAppearance</key>
+	<false/>
+	
+	<!-- Document Types (optional - for MIDI file support) -->
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>MIDI File</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSHandlerRank</key>
+			<string>Alternate</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>public.midi-audio</string>
+			</array>
+		</dict>
+	</array>
+	
+	<!-- Background Modes -->
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>bluetooth-central</string>
+	</array>
+	
+	<!-- Required Device Capabilities -->
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>bluetooth-le</string>
+	</array>
+	
+	<!-- App Category -->
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.music</string>
+	
+	<!-- Supported Platforms -->
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	
+	<!-- Minimum OS Version -->
+	<key>MinimumOSVersion</key>
+	<string>10.15</string>
+	
+	<!-- Support for Intel and Apple Silicon -->
+	<key>LSArchitecturePriority</key>
+	<array>
+		<string>arm64</string>
+		<string>x86_64</string>
+	</array>
+</dict>
+</plist>

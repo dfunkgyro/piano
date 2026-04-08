@@ -1,0 +1,33 @@
+{
+  "CallerReference": "root-20260324175259",
+  "Aliases": {
+    "Quantity": 1,
+    "Items": ["thegyromusic.com"]
+  },
+  "DefaultRootObject": "index.html",
+  "Origins": {
+    "Quantity": 1,
+    "Items": [
+      {
+        "Id": "S3-thegyromusic.com",
+        "DomainName": "thegyromusic.com.s3.amazonaws.com",
+        "S3OriginConfig": {"OriginAccessIdentity": ""}
+      }
+    ]
+  },
+  "DefaultCacheBehavior": {
+    "TargetOriginId": "S3-thegyromusic.com",
+    "ViewerProtocolPolicy": "redirect-to-https",
+    "AllowedMethods": {"Quantity": 2, "Items": ["GET", "HEAD"], "CachedMethods": {"Quantity": 2, "Items": ["GET", "HEAD"]}},
+    "ForwardedValues": {"QueryString": false, "Cookies": {"Forward": "none"}},
+    "MinTTL": 0
+  },
+  "Comment": "GrandPiano marketing site",
+  "PriceClass": "PriceClass_100",
+  "Enabled": true,
+  "ViewerCertificate": {
+    "ACMCertificateArn": "arn:aws:acm:us-east-1:602963248702:certificate/a51928fb-6245-48eb-8ab5-d9393ef16746",
+    "SSLSupportMethod": "sni-only",
+    "MinimumProtocolVersion": "TLSv1.2_2021"
+  }
+}

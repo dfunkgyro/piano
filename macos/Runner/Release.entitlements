@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Required for audio playback -->
+	<key>com.apple.security.device.audio-input</key>
+	<true/>
+	
+	<!-- Required for network access (AWS) -->
+	<key>com.apple.security.network.client</key>
+	<true/>
+	
+	<!-- Required for Bluetooth MIDI -->
+	<key>com.apple.security.device.bluetooth</key>
+	<true/>
+	
+	<!-- Required for USB MIDI devices -->
+	<key>com.apple.security.device.usb</key>
+	<true/>
+	
+	<!-- File access for audio files -->
+	<key>com.apple.security.files.user-selected.read-only</key>
+	<true/>
+	
+	<!-- App Sandbox -->
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+</dict>
+</plist>
