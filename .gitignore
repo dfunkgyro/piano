@@ -49,3 +49,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# PD catalog working data
+tools/pd_work/
+
