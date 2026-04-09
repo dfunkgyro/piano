@@ -13,16 +13,17 @@
   - Modes: `audioOnly`, `polyphony`, `visuals`.
   - Stored in `ultra_performance_mode` via `AppSettingsStore`.
   - When enabled, it forces High Performance ON and adjusts audio engine limits.
-- Web build:
-  - Use `flutter build web --release --pwa-strategy=none`
-  - Sync to `s3://piano.thegyromusic.com` excluding catalog:
-    - `aws s3 sync build/web s3://piano.thegyromusic.com --delete --exclude "catalog/*"`
-    - Then re-upload catalog if needed:
-      - `aws s3 cp catalog/pd_catalog.json s3://piano.thegyromusic.com/catalog/pd_catalog.json`
-  - Invalidate CloudFront distribution `E3K16XT2P4N288`
+- Web deploy:
+  - Use `powershell -ExecutionPolicy Bypass -File tools\deploy_web.ps1`
+  - This preserves `catalog/`, `downloads/`, and `releases/` by default.
+  - Only use `-DeleteManagedWebFiles` if you explicitly want delete behavior for managed web files.
+  - Do not use raw `aws s3 sync build/web s3://piano.thegyromusic.com --delete` for live deploys.
+- Stable release flow:
+  - Use `powershell -ExecutionPolicy Bypass -File tools\release_stable.ps1 -ReleaseId <release-id>`
+  - This deploys via the hardened web deploy script, then snapshots the release under `releases/<release-id>/`.
 - Rollback:
   - Bucket versioning is enabled.
-  - Current rollback snapshot is documented in `rollback-versions.json` and `ROLLBACK.md`.
+  - Current rollback snapshot is documented in `ROLLBACK.md`.
 
 ## Song MIDI Sources
 

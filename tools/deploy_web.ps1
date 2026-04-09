@@ -4,7 +4,8 @@ param(
   [string]$DistributionId = "E3K16XT2P4N288",
   [switch]$SkipBuild,
   [switch]$SkipCatalog,
-  [switch]$SkipInvalidate
+  [switch]$SkipInvalidate,
+  [switch]$DeleteManagedWebFiles
 )
 
 $ErrorActionPreference = "Stop"
@@ -21,8 +22,22 @@ if (-not $SkipBuild) {
     --dart-define=BUILD_DATE=$buildDate
 }
 
-Write-Host "Syncing build/web (excluding catalog/*)..."
-aws s3 sync build/web "s3://$Bucket" --delete --exclude "catalog/*" --profile $Profile
+$syncArgs = @(
+  's3', 'sync', 'build/web', "s3://$Bucket",
+  '--exclude', 'catalog/*',
+  '--exclude', 'downloads/*',
+  '--exclude', 'releases/*',
+  '--profile', $Profile
+)
+
+if ($DeleteManagedWebFiles) {
+  Write-Host "Syncing build/web with delete for managed web files only..."
+  $syncArgs = $syncArgs[0..3] + @('--delete') + $syncArgs[4..($syncArgs.Length - 1)]
+} else {
+  Write-Host "Syncing build/web without delete to preserve runtime data like catalog/, downloads/, and releases/..."
+}
+
+& aws @syncArgs
 
 if (-not $SkipCatalog) {
   $catalogPath = "catalog/pd_catalog.json"
